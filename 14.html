@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Job Application</title>
 </head>
 <body>
     <form >
@@ -26,7 +26,7 @@
         <br>
         <label for="experience">Experience(in years):</label>
         <br>
-        <input type="number" id="experience">
+        <input type="number" id="experience" min="0" max="10">
         <fieldset>
             <legend>Skills</legend>
             <input type="checkbox" id="checkbox1" name="checkbox">
@@ -44,7 +44,8 @@
         </fieldset>
         <label for="education">Higest Education</label >
         <br>
-        <select id="education">
+        <select id="education" name="education">
+            <option value="">choose your education</option>
             <option value="high school">high school</option>
             <option value="inter">inter</option>
             <option value="graduation">graduation</option>
@@ -62,6 +63,7 @@
         <label for="comments">Additional comments</label>
         <br>
         <textarea name="comments" id="comments" cols="50" rows="1"></textarea>
+        <button >Submit Application</button>
 
     </form>
 </body>
