@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+.firstpara {
+    border: 3px solid black;
+}
+.secondpara {
+    border: 3px dashed aqua;
+        padding: 10px 20px ;
+        margin: 10px 20px ;
+        box-sizing: border-box;
+
+}
+.thirdpara {
+    border: 3px dotted rgb(36, 174, 29);
+    padding: 10px 20px 30px 40px;
+}   
